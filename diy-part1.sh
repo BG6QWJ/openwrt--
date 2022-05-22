@@ -14,9 +14,9 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git OpenClash https://github.com/BG6QWJ/OpenClash' >>feeds.conf.default
 
 ##############################################################################################
 
@@ -54,7 +54,7 @@ git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-a
 # 服务
 
 #docker
-git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
+#git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 
 #ShadowSocksR Plus+
 git clone https://github.com/fw876/helloworld.git package/helloworld
